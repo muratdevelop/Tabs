@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background: #d8e33d;
+
+}
+
+.main-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.main-card input {
+    display: none;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+
+    max-width: 270px;
+    min-height: 450px;
+    background: aquamarine;
+    box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+    transition: .6s;
+}
+
+.card:hover {
+    background: url("../img/germany.jpeg") no-repeat center/cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.card-RMCF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+
+    width: 270px;
+    height: 450px;
+    background: aquamarine;
+    box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+
+    transition: .6s;
+}
+
+.card-RMCF img {
+    width: 190px;
+    height: 235px;
+}
+
+.card-RMCF h1 {
+    color: rgb(48, 150, 206);
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.card-RMCF p {
+    color: rgb(76, 211, 253);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130.9%;
+}
+
+.card-RMCF:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+    background: url("../img/испания.jpg") no-repeat center/cover;
+}
+
+.card-ACM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+
+    width: 270px;
+    height: 450px;
+    background: aquamarine;
+    box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+
+    transition: .6s;
+}
+
+.card-ACM img {
+    width: 180px;
+    height: 227px;
+}
+
+.card-ACM h1 {
+    color: #ff2222;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.card-ACM p {
+    color: rgb(188, 55, 237);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130.9%;
+}
+
+.card-ACM:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+    background: url("../img/италия.jpg") no-repeat center/cover;
+}
+
+.card-MCFC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+
+    width: 270px;
+    height: 450px;
+    background: aquamarine;
+    box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+
+    transition: .6s;
+}
+
+.card-MCFC img {
+    width: 191px;
+    height: 203px;
+}
+
+.card-MCFC h1 {
+    color: #0171fb;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.card-MCFC p {
+    color: rgb(250, 74, 247);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130.9%;
+}
+
+.card-MCFC:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+    background: url("../img/англия.webp") no-repeat center/cover;
+}
+
+.card-PSG {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+
+    width: 270px;
+    height: 450px;
+    background: aquamarine;
+    box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+
+    transition: .6s;
+}
+
+.card-PSG img {
+    width: 191px;
+    height: 203px;
+}
+
+.card-PSG h1 {
+    color: rgb(12, 190, 12);
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.card-PSG p {
+    color: #e22a2a;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130.9%;
+}
+
+.card-PSG:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+    background: url("../img/франция.jpg") no-repeat center/cover;
+}
+
+.card-FCSM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+
+    width: 270px;
+    height: 450px;
+    background: aquamarine;
+    box-shadow: 0px 15px 50px 0px rgba(67, 76, 109, 0.08);
+
+    transition: .6s;
+}
+
+.card-FCSM img {
+    width: 191px;
+    height: 203px;
+    ;
+}
+
+.card-FCSM h1 {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.card-FCSM p {
+    color: #d2caca;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130.9%;
+}
+
+.card-FCSM:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(0.9);
+    background: url("../img/россия.jpg") no-repeat center/cover;
+}
+
+
+
+
+
+
+
+
+.card img {
+    width: 191px;
+    height: 203px;
+
+}
+
+.card h1 {
+    color: #f72121;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+
+.card p {
+    color: #1c3ee4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130.9%;
+}
+
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin: 30px 0;
+}
+
+.labels label {
+    color: #2A2D46;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.labels label:hover {
+    color: #0a21f0;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#FCB:checked~.card-2,
+#FCB:checked~.card-3,
+#FCB:checked~.card-4,
+#FCB:checked~.card-5,
+#FCB:checked~.card-6 {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+
+#RMCF:checked~.card-1,
+#RMCF:checked~.card-3,
+#RMCF:checked~.card-4,
+#RMCF:checked~.card-5,
+#RMCF:checked~.card-6 {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+#ACM:checked~.card-2,
+#ACM:checked~.card-1,
+#ACM:checked~.card-4,
+#ACM:checked~.card-5,
+#ACM:checked~.card-6 {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+#MCFC:checked~.card-2,
+#MCFC:checked~.card-3,
+#MCFC:checked~.card-1,
+#MCFC:checked~.card-5,
+#MCFC:checked~.card-6 {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+#PSG:checked~.card-2,
+#PSG:checked~.card-3,
+#PSG:checked~.card-4,
+#PSG:checked~.card-1,
+#PSG:checked~.card-6 {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+#FCSM:checked~.card-2,
+#FCSM:checked~.card-3,
+#FCSM:checked~.card-4,
+#FCSM:checked~.card-5,
+#FCSM:checked~.card-1 {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+#all:checked~.card-2,
+#all:checked~.card-3,
+#all:checked~.card-4,
+#all:checked~.card-5,
+#all:checked~.card-1,
+#all:checked~.card-1 {
+    opacity: 1;
+    transition: .8s;
+}
